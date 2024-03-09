@@ -5,17 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
     <title>Single Page Design Portfolio</title>
 </head>
 
-<body class="bg-light-cream p-4">
+<body class="font-plus-jakarta-sans bg-light-cream p-4">
     <header class="mb-8">
         <div class="flex justify-between items-center">
-            <img class="inline h-12" src="./assets/logo.svg" alt="logo">
+            <img class="inline h-12" src="./assets/images/logo.svg" alt="logo">
             <button class="h-11 bg-black text-light-cream font-bold py-2 px-7 rounded-full">Free Consultation</button>
         </div>
         <h1 class="font-bold text-4xl text-center mt-8 mb-4">Design solutions made easy</h1>
-        <p class="mx-11 text-medium-brown text-center">With over ten years of experience in various design disciplines, I’m your one-stop
+        <p class="mx-11 text-medium-brown font-medium text-center">With over ten years of experience in various design disciplines, I’m your one-stop
             shop for your design
             needs.</p>
     </header>
@@ -47,12 +50,26 @@
             </div>
         </section>
         <section class="grid">
-            <img class="w-[300px] mt-[100px] mx-auto" src="./assets/image-amy.webp" alt="Amy pic">
+            <img class="w-[300px] mt-[100px] mx-auto" src="./assets/images/image-amy.webp" alt="Amy pic">
             <h2 class="font-bold text-2xl text-center mt-10 mb-6 mx-4">I’m Amy, and I’d love to work on your next project</h2>
-            <p class="text-medium-brown text-center mx-2 mb-6 ">I love working with others to create beautiful design solutions. 
+            <p class="text-medium-brown font-medium text-center mx-2 mb-6 ">I love working with others to create beautiful design solutions. 
                 I’ve designed everything from brand illustrations to complete mobile apps. I’m also handy with a camera!
             </p>
             <button class="bg-light-red text-light-cream mx-auto font-bold py-2 px-7 rounded-3xl">Free Consultation</button>
+        </section>
+        <section>
+            <div class="bg-black rounded-[10px] py-12 px-6 text-center mb-10">
+                <h2 class="font-bold text-[26px] text-center text-light-cream">Book a call with me</h2>
+                <p class="font-medium my-6 text-light-cream">
+                    I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a free consultation.
+                    Then we can move forward from there.
+                </p>
+                <button class="bg-light-red font-bold py-2 px-7 rounded-[28px] text-light-cream">Free Consultation</button>
+            </div>
+            <div class="flex justify-between items-center">
+                <img class="inline h-12" src="./assets/images/logo.svg" alt="logo">
+                <button class="h-11 bg-black text-light-cream font-bold py-2 px-7 rounded-full">Free Consultation</button>
+            </div>
         </section>
     </main>
 </body>

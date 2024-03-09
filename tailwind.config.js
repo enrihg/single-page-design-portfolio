@@ -13,6 +13,9 @@ module.exports = {
         'cyan' : '#61c4b7',
         'dark-purple': "#552049",
         'black' : '#030303',
+      },
+      fontFamily: {
+        'plus-jakarta-sans' : ['Plus Jakarta Sans', 'sans-serif']
       }
     },
   
