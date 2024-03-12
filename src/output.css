@@ -904,28 +904,8 @@ video {
     height: 3.5rem;
   }
 
-  .md\:max-w-\[50\%\] {
-    max-width: 50%;
-  }
-
-  .md\:max-w-\[50\%\+16px\] {
-    max-width: 50%+16px;
-  }
-
-  .md\:max-w-\[50\%-16px\] {
-    max-width: 50%-16px;
-  }
-
-  .md\:max-w-\[50\%-8px\] {
-    max-width: 50%-8px;
-  }
-
   .md\:max-w-\[calc\(50\%-8px\)\] {
     max-width: calc(50% - 8px);
-  }
-
-  .md\:max-w-\[calc\(75\%-8px\)\] {
-    max-width: calc(75% - 8px);
   }
 
   .md\:self-end {
@@ -1044,10 +1024,6 @@ video {
   .xl\:mx-auto {
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .xl\:max-w-\[33\.33\%\] {
-    max-width: 33.33%;
   }
 
   .xl\:max-w-\[65\%\] {
