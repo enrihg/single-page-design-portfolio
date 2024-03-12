@@ -553,11 +553,6 @@ video {
   margin-right: 2.75rem;
 }
 
-.mx-\[-16px\] {
-  margin-left: -16px;
-  margin-right: -16px;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -632,10 +627,6 @@ video {
 
 .w-\[300px\] {
   width: 300px;
-}
-
-.max-w-\[270px\] {
-  max-width: 270px;
 }
 
 .max-w-\[1200px\] {
@@ -889,11 +880,6 @@ video {
     right: 5rem;
   }
 
-  .md\:mx-\[-40px\] {
-    margin-left: -40px;
-    margin-right: -40px;
-  }
-
   .md\:mb-16 {
     margin-bottom: 4rem;
   }
@@ -918,8 +904,28 @@ video {
     height: 3.5rem;
   }
 
-  .md\:max-w-\[540px\] {
-    max-width: 540px;
+  .md\:max-w-\[50\%\] {
+    max-width: 50%;
+  }
+
+  .md\:max-w-\[50\%\+16px\] {
+    max-width: 50%+16px;
+  }
+
+  .md\:max-w-\[50\%-16px\] {
+    max-width: 50%-16px;
+  }
+
+  .md\:max-w-\[50\%-8px\] {
+    max-width: 50%-8px;
+  }
+
+  .md\:max-w-\[calc\(50\%-8px\)\] {
+    max-width: calc(50% - 8px);
+  }
+
+  .md\:max-w-\[calc\(75\%-8px\)\] {
+    max-width: calc(75% - 8px);
   }
 
   .md\:self-end {
@@ -1035,18 +1041,21 @@ video {
     right: 0px;
   }
 
-  .xl\:mx-\[-165px\] {
-    margin-left: -165px;
-    margin-right: -165px;
-  }
-
   .xl\:mx-auto {
     margin-left: auto;
     margin-right: auto;
   }
 
+  .xl\:max-w-\[33\.33\%\] {
+    max-width: 33.33%;
+  }
+
   .xl\:max-w-\[65\%\] {
     max-width: 65%;
+  }
+
+  .xl\:max-w-\[calc\(33\.33\%-8px\)\] {
+    max-width: calc(33.33% - 8px);
   }
 
   .xl\:self-start {
